@@ -32,7 +32,6 @@
 | `progalab1.sln` | Решение Visual Studio |
 | `progalab1/progalab1.vcxproj` | Настройки C++-проекта |
 | `progalab1/euler_method_lab1.cpp` | Основной расчёт и функция `main` |
-| `progalab1/aaaaaa.cpp` | Реализация численных вспомогательных процедур, включая `fsolve` |
 | `progalab1/fsolve.hpp` | Объявления функций численного решателя |
 | `progalab1/parse.py` | Построение графиков и анимации по расчётным данным |
 | `progalab1/out.txt` | Файл с результатами, используемый скриптом визуализации |
