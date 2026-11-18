@@ -42,11 +42,11 @@ $$
 
 $$
 \begin{cases}
-\ddot{x}_1 = -\dfrac{x_1}{l_1 m_1} T_1 + \dfrac{x_2 - x_1}{l_2 m_1} T_2, \\[6pt]
-\ddot{y}_1 = -\dfrac{y_1}{l_1 m_1} T_1 + \dfrac{y_2 - y_1}{l_2 m_1} T_2 - g, \\[6pt]
-\ddot{x}_2 = -\dfrac{x_2 - x_1}{l_2 m_2} T_2, \\[6pt]
-\ddot{y}_2 = -\dfrac{y_2 - y_1}{l_2 m_2} T_2 - g, \\[6pt]
-x_1^2 + y_1^2 = l_1^2, \\[6pt]
+\ddot{x}_1 = -\frac{x_1}{l_1 m_1} T_1 + \frac{x_2 - x_1}{l_2 m_1} T_2, \\
+\ddot{y}_1 = -\frac{y_1}{l_1 m_1} T_1 + \frac{y_2 - y_1}{l_2 m_1} T_2 - g, \\
+\ddot{x}_2 = -\frac{x_2 - x_1}{l_2 m_2} T_2, \\
+\ddot{y}_2 = -\frac{y_2 - y_1}{l_2 m_2} T_2 - g, \\
+x_1^2 + y_1^2 = l_1^2, \\
 (x_2 - x_1)^2 + (y_2 - y_1)^2 = l_2^2.
 \end{cases}
 \tag{1}
