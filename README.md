@@ -16,9 +16,9 @@
 | Массы грузов | m<sub>1</sub>, m<sub>2</sub> |
 | Углы между стержнями и вертикалью | θ<sub>1</sub>, θ<sub>2</sub> |
 
-$`$
+$$
 x_1 = l_1 \sin \theta_1,
-$`$
+$$
 
 $$
 x_2 = l_1 \sin \theta_1 + l_2 \sin \theta_2,
@@ -38,6 +38,19 @@ $$
 \theta_1 = \theta_1(t), \quad \theta_2 = \theta_2(t).
 $$
 
+Составим систему уравнений:
+
+$$
+\begin{cases}
+\ddot{x}_1 = -\dfrac{x_1}{l_1 m_1} T_1 + \dfrac{x_2 - x_1}{l_2 m_1} T_2, \\[6pt]
+\ddot{y}_1 = -\dfrac{y_1}{l_1 m_1} T_1 + \dfrac{y_2 - y_1}{l_2 m_1} T_2 - g, \\[6pt]
+\ddot{x}_2 = -\dfrac{x_2 - x_1}{l_2 m_2} T_2, \\[6pt]
+\ddot{y}_2 = -\dfrac{y_2 - y_1}{l_2 m_2} T_2 - g, \\[6pt]
+x_1^2 + y_1^2 = l_1^2, \\[6pt]
+(x_2 - x_1)^2 + (y_2 - y_1)^2 = l_2^2.
+\end{cases}
+\tag{1}
+$$
 
 ## Модель и параметры
 
